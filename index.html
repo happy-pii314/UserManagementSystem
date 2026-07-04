@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>User Management System</h1>
+            
+            <div class="stats">
+                <div class="card-box">
+                 <h3>Total Users</h3>
+                 <h1 id="totalUsers">0</h1>
+            </div>
+
+</div>
+            <form id="userForm">
+                <input type="hidden" id="userId">
+                <input type="text" id="name" placeholder="Enter Name" required>
+                <input type="email" id="email" placeholder="Enter Email" required>
+                <input type="number" id="age" placeholder="Enter Age" required>
+                <button type="submit">Add User</button>
+            </form>
+        </div>
+        <div class="table-card">
+            <div class="top-bar">
+                <h2>Users List</h2>
+                <input type="text" id="search" placeholder="Search User...">
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Age</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="userTable"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
