@@ -2,6 +2,12 @@
 
 A responsive User Management System built using HTML, CSS, JavaScript, PHP, and MySQL.
 
+# User Management System
+
+🚀 **Live Demo:** http://usermanagement.wuaze.com
+
+💻 **GitHub Repository:** https://github.com/happy-pii314/UserManagementSystem
+
 ## Features
 
 - Add User
